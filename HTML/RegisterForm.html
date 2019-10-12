@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration form</title>
+</head>
+<body>
+<form>
+	<h1>Register</h1>
+<div>
+	<label for="firstname">First Name:</label>	
+	<input type="text" id="firstname" placeholder="John">
+
+	<label for="lastname">Last Name:</label>
+	<input type="text" id="lastname" placeholder="Smith">
+</div>
+<div>
+	<label for="male">Male</label>
+	<input type="radio" id="male" name="genderChoice">
+
+	<label for="female">Female</label>
+	<input type="radio" id="female" name="genderChoice">
+
+	<label for="other">Other</label>
+	<input type="radio" name="genderChoice" id="other">
+</div>
+<div>
+	<label for="email">Email:</label>
+	<input type="text" id="email" placeholder="your email" required>
+
+	<label for="password">Password:</label>
+	<input type="text" id="password" placeholder="your password" required>
+</div>
+<div>
+	<label for="dob">Birthday:</label>
+	<select name="month" id="dob">
+		<option>Month</option>
+	</select>
+	<select name="Day" id="dob">
+		<option>Day</option>
+	</select>
+	<select name="Year" id="dob">
+		<option>Year</option>
+	</select>
+</div>
+<p>I agree to the terms and conditions <input type="checkbox"></p>
+<button>Submit</button>
+
+</form>
+</body>
+</html>
